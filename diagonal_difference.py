@@ -14,10 +14,9 @@ import sys
 
 
 def diagonal_difference(arr):
-    x = list(range(n))
-    y = list(range(n))
+    x = list(range(3))
+    y = x[:]
     y.reverse()
-
     x_sum = y_sum = 0
 
     for num_x, num_y in zip(x, y):
